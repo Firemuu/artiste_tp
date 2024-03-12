@@ -1,0 +1,38 @@
+<!DOCTYPE html><html>
+<head>
+    <link rel="stylesheet" type="text/CSS" href="artiste.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    <title> Bouton </title>
+    <script src="artiste.js"></script>
+
+</head>
+
+<center>
+    <div>
+        <div id="div1"></div>
+        <h2>Liste des artistes</h2>
+            <select id="liste_artiste" size="3" id="liste" onchange="detail()">
+                <option value=0>---------</option>
+            </select>
+
+            <br><br> <br><h3>Ajout d'un artiste</h3> <br>
+            <input id="add" placeholder="Entrez un artiste"> 
+
+            <button onclick="ajouter()">Valider</button>
+            <br><br><br> <h3>Suppression d'un artiste</h3> <br><br>
+            <input id="sup" placeholder="Supprimer un artiste"><button onclick="supprimer()">Valider</button>
+    </div>
+</center>
+
+<body>
+
+
+<select id="liste">
+
+</select>
+
+<button onclick="ff()">valide</button>
+
+</body>
+</html>
